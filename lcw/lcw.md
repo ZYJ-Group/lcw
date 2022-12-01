@@ -36,3 +36,24 @@ ORBSLAM2详解：https://blog.csdn.net/afucc111/article/details/126237586?spm=10
     暂定方案：
           1、激光雷达点云取‘非’处理
           2、icp匹配毫米波雷达点云与上述激光雷达处理后的点云
+          
+##### 2022.12.01  
+#### 结果：  
+
+    1、完成标定
+    2、r3live复现完成
+    3、大论文框架
+    4、fastlio复现完成
+    
+    <div align=center>
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/1.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/4.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/6.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/7.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/8.png">
+    </div>
+    
+#### 计划：  
+
+    1、大论文第一章
+    2、r3live、标定优化
