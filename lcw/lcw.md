@@ -46,7 +46,6 @@ ORBSLAM2详解：https://blog.csdn.net/afucc111/article/details/126237586?spm=10
     <div align=center>
     <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/1.png">
     <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/4.png">
-    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/6.png">
     <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/7.png">
     <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/153493d5a3e7584b024556e05c7c9e7b130b9a64/lcw/image/8.png">
     </div>
