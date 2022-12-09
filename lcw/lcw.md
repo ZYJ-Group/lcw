@@ -38,8 +38,8 @@ ORBSLAM2详解：https://blog.csdn.net/afucc111/article/details/126237586?spm=10
 ##### 2022.12.01  
 #### 结果：  
 
-- 1、完成标定
-- 2、r3live复现完成
+- 1、完成标定优化
+- 2、r3live
 - 3、大论文框架
 - 4、fastlio复现完成
     
@@ -54,3 +54,23 @@ ORBSLAM2详解：https://blog.csdn.net/afucc111/article/details/126237586?spm=10
 
     1、大论文第一章
     2、r3live、标定优化
+    
+ ##### 2022.12.01  
+#### 结果：  
+
+- 1、完成标定
+- 2、r3live复现完成
+- 3、大论文框架
+    
+    <div align=center>
+     <img width="500" alt="image" src="https://github.com/ZJUT-IoCS-MAS/lcw/blob/8612de3ad2fba176f9e2078b9a22e678a301a84f/image/r3live-1.png">
+    <img width="500" alt="image" src="https://github.com/ZJUT-IoCS-MAS/lcw/blob/8612de3ad2fba176f9e2078b9a22e678a301a84f/image/r3live-2.png">
+    <img width="500" alt="image" src="https://github.com/ZJUT-IoCS-MAS/lcw/blob/8612de3ad2fba176f9e2078b9a22e678a301a84f/image/r3live-3.png">
+    <img width="500" alt="image" src="https://github.com/ZJUT-IoCS-MAS/lcw/blob/8612de3ad2fba176f9e2078b9a22e678a301a84f/image/r3live-4.png">
+    </div>
+    https://www.bilibili.com/video/BV1sW4y1g7gn/?vd_source=6dd8e0feb6b7773e09908fe27ca756e3
+    
+#### 计划：  
+
+    1、大论文第二章
+    2、毫米波雷达点云与激光点云对齐
