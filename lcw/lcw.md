@@ -55,7 +55,7 @@ ORBSLAM2详解：https://blog.csdn.net/afucc111/article/details/126237586?spm=10
     1、大论文第一章
     2、r3live、标定优化
     
- ##### 2022.12.01  
+ ##### 2022.12.07  
 #### 结果：  
 
 - 1、完成标定
@@ -74,3 +74,42 @@ ORBSLAM2详解：https://blog.csdn.net/afucc111/article/details/126237586?spm=10
 
     1、大论文第二章
     2、毫米波雷达点云与激光点云对齐
+    
+##### 2022.12.16  
+#### 结果：  
+
+- 1、毫米波-相机-激光雷达标定
+<div align=center>
+     <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/217c4ef4936b9e01a6f0cf8c1b415f082e8eb85b/lcw/image/lidar_radar2.png">
+     <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/217c4ef4936b9e01a6f0cf8c1b415f082e8eb85b/lcw/image/lidar_radar_%E9%85%8D%E5%87%861.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/217c4ef4936b9e01a6f0cf8c1b415f082e8eb85b/lcw/image/radar_%E6%8B%9F%E5%90%88%E5%B9%B3%E9%9D%A2_%E9%85%8D%E5%87%861.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/217c4ef4936b9e01a6f0cf8c1b415f082e8eb85b/lcw/image/lidar_%E6%8B%9F%E5%90%88%E5%B9%B3%E9%9D%A2_%E9%85%8D%E5%87%862.png">
+    </div>
+- 2、camera_fusion
+<div align=center>
+     <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/217c4ef4936b9e01a6f0cf8c1b415f082e8eb85b/lcw/image/cam_lidar_fusion.png">
+    </div>
+- 3、radar_lidar投影   
+    <div align=center>
+     <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/217c4ef4936b9e01a6f0cf8c1b415f082e8eb85b/lcw/image/radar_lidar1.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/217c4ef4936b9e01a6f0cf8c1b415f082e8eb85b/lcw/image/radar_lidar2.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/217c4ef4936b9e01a6f0cf8c1b415f082e8eb85b/lcw/image/image1.png">
+    <img width="500" alt="image" src="https://github.com/ZYJ-Group/lcw/blob/217c4ef4936b9e01a6f0cf8c1b415f082e8eb85b/lcw/image/image2.png">
+    </div>
+
+    
+#### 现存问题：  
+
+    1、毫米波水平角 俯仰角分辨率差，导致无法准确检测到玻璃
+    2、激光雷达点云中的玻璃定位问题
+
+#### 拟定解决方案：  
+
+    1、嵌入玻璃检测算法：https://github.com/Charmve/Mirror-Glass-Detection 对三维空间中的玻璃进行定位
+    2、面对窗户：以激光点云扩散的方法进行空洞补全为主
+    2、面对形状较大的玻璃门，使用毫米波雷达检测结果辅助进行点云补全   
+
+#### 计划：
+
+    1、大论文第二章
+    2、点云空洞扩散补全
